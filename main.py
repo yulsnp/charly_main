@@ -1,12 +1,18 @@
+import math
 def area_triangle(b,h):
-    #Add your code here
+    areat=b*h/2
+    return areat
 
 def area_square(side):
-    #Add your code here
+    areac=side*side
+    return areac
 
 def area_circle(radius):
-    #Add your code here
+    p=math.pi
+    areacir=p*radius*radius
+    return areacir
+    
 
-print(f"The area of the triangle is: {}")
-print(f"The area of the square is: {}")
-print(f"The area of the circle is: {}")
+print(f"The area of the triangle is: {area_triangle(4,5)}")
+print(f"The area of the square is: {area_square(4)}")
+print(f"The area of the circle is: {area_circle(7)}")
