@@ -1,0 +1,13 @@
+Welcome to my Caesar Cypher challenge!
+
+Guidelines:
+1) Encrypted text is all upper case, so make sure to use only uppercase letters in your code.
+2) Encryption works ONLY with letters, so every special character is assumed to not be encrypted (for example if you see the encrypted text as "WESDG,SDGE" you can assume that the comma will remain as-is)
+3) There is no sample code for this one, so you will have to create a brand new .py file to code the solution
+  
+Hints:
+- To avoid an out-of-index processing, make sure you are using a modulo operation somewhere ;)
+- Remember to do a "git pull" in your local repo to sync-up with the server, otherwise you will not be able to see the new file
+
+Objective:
+The purpose of this challenge is to decrypt the text "TAWF ZWUZG TJGLZWJ, DG DGYJSKLW! =)"
