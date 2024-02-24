@@ -1,0 +1,13 @@
+Your new challenge is to create a python script that adds together all the numbers passed as arguments in the command line.
+
+For example, if I call the scrypt with the following arguments:
+
+> python my_script.py 1 2 3 4 5
+
+The script should return the sum of 1 + 2 + 3 + 4 + 5 = 15
+
+e.g.
+  "The result of adding 1 2 3 4 5 together is = 15"
+
+For this you need to read about "Command Line Arguments", you can check this link https://www.geeksforgeeks.org/command-line-arguments-in-python/
+For this exercise you can focus just on sys.argv and implement the solution accordingly. There should be no limit on the amount of arguments we can pass on to the script.
